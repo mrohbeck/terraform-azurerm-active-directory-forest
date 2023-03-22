@@ -171,3 +171,10 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+# Create a Variable for a hostname
+
+variable "hostname" {
+  description = "The hostname of the virtual machine"
+  default     = "vm"
+}
